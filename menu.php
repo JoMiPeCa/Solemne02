@@ -20,5 +20,5 @@
     <?php 
     echo $oUsr->getNombre();
     ?>
-    <a href="#">Salir</a>
+    <a href="logout.php">Salir</a>
 </div>
