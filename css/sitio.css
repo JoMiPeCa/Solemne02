@@ -1,0 +1,77 @@
+
+
+/*
+Titulo página*/
+#titpagina{
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 20px;
+ font-weight: bold;
+ position: absolute;
+ top: 10px;
+ left: 280px;
+ width: 600px;
+}
+/*
+Espacio de trabajo
+*/
+#esptrabajo {
+ font-family: 'Ubuntu', sans-serif;
+ position: absolute;
+ top: 60px;
+ left: 280px;
+ width: 600px;
+}
+
+/*
+Titulo página*/
+#titlogin{
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ margin: auto;
+ width: 200px;
+ border: 3px solid #BA2F14;
+padding: 10px;
+}
+
+/*
+Titulo página*/
+#titlogout{
+ font-family: 'Ubuntu', sans-serif;
+  position: relative;
+ font-size: 16px;
+ font-weight: bold;
+ width: 200px;
+padding: 10px;
+}
+
+/*
+Botón de acceso
+*/
+#btn {
+   border-top: 1px solid #ff0000;
+   background: #d63900;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c42e00), to(#d63900));
+   background: -webkit-linear-gradient(top, #c42e00, #d63900);
+   background: -moz-linear-gradient(top, #c42e00, #d63900);
+   background: -ms-linear-gradient(top, #c42e00, #d63900);
+   background: -o-linear-gradient(top, #c42e00, #d63900);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: 'Ubuntu', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#btn:hover {
+   border-top-color: #632300;
+   background: #632300;
+   color: #ccc;
+   }
