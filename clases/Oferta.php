@@ -7,6 +7,7 @@ class Oferta{
 	private $sdias;
 	private $dfechainicio;
 	private $querysel;
+        
 	function __construct($nid=NULL,$snom=NULL,$ntot=NULL,$nano=NULL,$dfechaini=NULL){
 		$this->nidoferta=$nid;
 		$this->sdescripcion=$snom;

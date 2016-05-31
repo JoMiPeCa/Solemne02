@@ -1,11 +1,26 @@
-<!doctype html>
+<?php
+$oOferta = new Oferta();
+?>
 <html lang=''>
 <?php include("../head.php");?>
 <body>
 <?php include("../menu.php");?>
 <div id="titpagina"> Eliminar Oferta </div>
 <div id="esptrabajo">
-    Opción de navegación
+    <form method="post" action="accform/accOfertaDel.php">
+    <?php
+    While ($Registro = $oOferta->Selecciona()) {
+        ?>
+        <input type="checkbox" name=elimina<?= $Registro->IdOferta() ?> value="<?= $Registro->IdOferta() ?>">
+    <!--    <?= $Registro->Descripcion() ?>/<?= $Registro->Dias() ?>/<?= $Registro->Precio() ?> -->
+        <br>
+        <?php
+    }
+    ?>
+    <input type="submit" value="Eliminar">
+</form>
 </div>
 </body>
 </html>
+
+
