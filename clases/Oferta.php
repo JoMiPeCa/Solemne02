@@ -1,6 +1,6 @@
 <?php
 
-class Producto{
+class Oferta{
 	private $nidoferta;
 	private $sdescripcion;
 	private $nprecio;
