@@ -20,7 +20,12 @@ class Usuario{
 	public function getIdacceso(){
 		return $this->nidacceso;
 	}
-	
+        
+        function getSclave() {
+            return $this->sclave;
+        }
+
+        	
 	function VerificaUsuario(){
 		$db=dbconnect();
 		/*Definición del query que permitira ingresar un nuevo registro*/
